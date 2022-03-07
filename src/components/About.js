@@ -2,29 +2,17 @@ import React from 'react';
 
 function About() {
     return(
-        <section className="my-5">
-<nav>
-    <ul className="flex-row inline">
-      <li className="mx-2">
-        <a href="#about">About me </a>
-      </li>
-      <li className="mx-2">
-        <a href="#portfolio">Portfolio </a>
-      </li>
-      <li className="mx-2">
-        <a href="#contact">Contact </a>
-      </li>
-      <li className="mx-2">
-        <a href="#resume">Resume </a>
-      </li>
-    </ul>
-  </nav>
-            <h1 id="about">About me:</h1>
-            <img></img>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+      <section className="About-me" id="About me">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VV7dlZvxOseZJqh0baBIHNre1tzNjcZpXQ&usqp=CAU" alt="avatar picture" className="right"/>
   
-       
-        </section>
+          <p>
+              <span className="Title">About me</span> <br/>
+              I am a candidate at the UCDavis full stack web development graduating<br/> in March 2022.
+              I have a few years experience in SEO. I worked for <br/> a Forex brokerage company with focus on international buyers and helped <br/>the company reach clients in the US, Europe and the Mena region.<br/>I also worked as an investment banker analyst in the private equity,<br/> venture capital and buyout areas.
+              I like reading, travelling and enjoy cooking<br/> different cuisines.
+          </p>
+      </section>
+  
     )
 }
 export default About;

@@ -3,7 +3,6 @@ import React from 'react';
 function Footer() {
     return(
         <section className="my-5">
-<nav>
     <ul className="flex-row inline">
       <li className="mx-2">
         <a href="#footer">Links:</a>
@@ -15,8 +14,7 @@ function Footer() {
         <a href="#contact">Linkedin: </a>
       </li>
 
-    </ul>
-  </nav>     
+    </ul>     
         </section>
     )
 }
