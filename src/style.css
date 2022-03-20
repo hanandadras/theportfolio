@@ -1,92 +1,155 @@
+
 body {
-    background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFja2dyb3VuZCUyMHRleHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"); width:95%;
+  background-image: url("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b2NlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60");
+  width: 100%;
+margin-left: 30px;
+margin-right: 40px;
 }
 
-header{
-    display:flex;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: lightgrey;
+  width: 800px;
+  border: 15px solid grey;
+  padding: 50px;
+  margin: 20px;
+}
+
+.project
+{
+    font-size: 15px;
+}
+
+.portfolio {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left:4px;
+    padding-left: 4px;
     padding-right: 4px;
-    background-color: none;
-    color: black
+    background-color: lightgrey;
+    width: 800px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
 }
-p{
-    font-size: 17px;
+
+.contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: lightgrey;
+    width: 800px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
+    font-size: 10px;
+    font-family: "Lucida Console", "Courier New", monospace
+}
+
+.resume
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: lightgrey;
+    width: 800px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
+    font-size: 10px;
+    font-family: "Lucida Console", "Courier New", monospace 
+}
+
+
+
+p {
+  font-size: 17px;
+  font-family: "Lucida Console", "Courier New", monospace
 }
 
 header h1 {
-            font-weight: bold;
-            font-size: 40px;
-            margin: 5px;
-            
-        }
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px;
+}
 
-        /*this is to keep ul elements with h1*/
+/*this is to keep ul elements with h1*/
 
-
-    ul
-    {
-        width:100%;
-        padding: 0 0 2px;
-        margin:0;
-        display:flex;
-        flex-wrap: wrap;
-       justify-content: space-between;
-       
-    }
-    ul li{
-        font-size: 30px;
-        list-style: none;
-        padding: 0px 10px 0px 10px;
-    }
+ul {
+  width: 100%;
+  padding: 0 0 2px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ul li {
+  font-size: 30px;
+  list-style: none;
+  padding: 2px 10px 2px 10px;
+}
 
 nav {
-    margin: 7px 0;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
+  margin: 7px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
 
 h2 {
-            font-size: 30px;
-        
-        }
-.About-me{
-    display:flex;
-    /* flex-direction: row; */
-    /* flex-direction: column; */
-    flex: auto;
-    padding-top: 30px;
-    font-size: 30px;
+  font-size: 30px;
 }
-.Title{
-    font-size: 30px;
-    font-weight: bold;
+.About-me {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  flex: auto;
+  padding-top: 30px;
+  font-size: 30px;
+  margin: 20px;
 }
-.About-me p{
-    margin-left: 40px;
+.Title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.About-me p {
+  margin-left: 40px;
+  background-color: lightgrey;
+  width: 700px;
+  border: 15px solid grey;
+  padding: 50px;
+  margin-right: 54px;
 }
 .port-img {
-    width: 240px;
-    height: 160px;
+  width: 150px;
+  height: 100px;
 }
-.Contact-me{
-    ul li{
-        font-size: 20px;
-        list-style: none;
-        padding: 0px 10px 0px 10px;
-}
-}
+/* .Contact-me {
+  ul li {
+    font-size: 20px;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+  } */
 
-@media (max-width:600px){
-    body{
-        display: block;
-    }
-    header {
-        display: block;
-    }
-};
+
+@media (max-width: 600px) {
+  body {
+    display: block;
+  }
+  header {
+    display: block;
+  }
+} ;

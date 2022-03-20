@@ -2,29 +2,29 @@ import React from 'react';
 import Project from './Project';
 const projects =[
     {
-        name:"project 1",
-        description:"project 1 description",
-        github:"githubURL",
-        screenshot:"screenshot URL",
+        name:"job-aid",
+        description:"job-aid is an application that allows job seekers to look for a job using a job title and zipcode",
+        github:"https://github.com/hanandadras/job-aid",
+        //screenshot:"https://github.com/hectorromo06/job-aid/raw/main/assets/images/job-aid-screenshot.png",
     },
     {
-        name:"project 2",
-        description:"project 2 description",
-        github:"githubURL",
-        screenshot:"screenshot URL",
+        name:"moviesNme",
+        description:"MoviesNme is a movies streaming app using OMDB ( http://www.omdbapi.com/) to fetch a large library of movies and make it available to movie lovers.",
+        github:"https://github.com/MeenaAlemiJalal/moviesNme",
+       // screenshot:"https://user-images.githubusercontent.com/91281668/150245036-eed4c5a7-4f2b-4bfe-ad97-fd42d951d445.png",
     },
     {
-        name:"project 3",
-        description:"project 3 description",
-        github:"githubURL",
-        screenshot:"screenshot URL",
+        name:"ArtMart",
+        description:"This is an online gallery/blog/marketplace for artists to showcase their work, show a description fo their work, get fans reactions and sell their pieces if anyone is interested.",
+        github:"https://github.com/hanandadras/ArtMart",
+        //screenshot:"https://artmart-hd.herokuapp.com/",
     },
 ]
 
 function Portfolio() {
 
     return(
-        <section className="my-5">
+        <section className="portfolio">
             <h1 id="portfolio">Portfolio:</h1>
             {projects.map(project=>(
                 <Project
@@ -39,3 +39,4 @@ function Portfolio() {
     )
 }
 export default Portfolio;
+
