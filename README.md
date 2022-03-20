@@ -20,8 +20,8 @@ Links:
 https://github.com/hanandadras/theportfolio
 
 Licence:
-Unliceneced
-Copyright (C) 2022 {Hanan Dadras} <{email}>
+Unlicenced
+Copyright (C) 2022 {Hanan Dadras} <{handadras@gmail.com}>
 
 This file is part of the {theportfolio} project.
 
