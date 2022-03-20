@@ -14,7 +14,10 @@ Contributor:
 github username: hanandadras
 
 Future development:
-finish resume upload
+Finish resume upload, make the project more responsive and UI friendly.
+
+Links:
+https://github.com/hanandadras/theportfolio
 
 Licence:
 Unliceneced
